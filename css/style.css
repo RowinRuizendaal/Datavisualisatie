@@ -1,0 +1,26 @@
+body {
+    background-color: #1a1f2b;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+
+.graph {
+    height: 30rem;
+    width: 40rem;
+    border-radius: .25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, .25);
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 3rem;
+}
+
+.container .graph canvas {
+    margin-top: 5rem;
+    height: 20rem;
+    width: 100%;
+}
