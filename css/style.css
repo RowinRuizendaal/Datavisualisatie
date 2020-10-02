@@ -1,5 +1,6 @@
 body {
     background-color: #1a1f2b;
+    overflow-x: hidden;
 }
 
 .container {
@@ -7,7 +8,9 @@ body {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     justify-items: center;
+    margin-top: 5rem;
 }
+
 
 .graph {
     height: 30rem;
@@ -17,10 +20,102 @@ body {
     overflow: hidden;
     background-color: #fff;
     margin-bottom: 3rem;
+    z-index: 9;
 }
 
 .container .graph canvas {
     margin-top: 5rem;
     height: 20rem;
     width: 100%;
+}
+
+.container .graph h3 {
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+/* ANIMATIE ACHTERGROND ---------------------------------------------------------- */
+
+.animatie-blok {
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.animatie-blok li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 6em;
+    height: 6em;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 20s linear infinite;
+    bottom: -25em;
+    border-radius: 50px;
+}
+
+.animatie-blok li:nth-child(1) {
+    left: 86%;
+    width: 5em;
+    height: 5em;
+    animation-delay: 0s;
+    border-radius: 50px;
+}
+
+.animatie-blok li:nth-child(2) {
+    left: 18%;
+    width: 2em;
+    height: 2em;
+    animation-delay: 1.5s;
+    animation-duration: 10s;
+    border-radius: 50px;
+}
+
+.animatie-blok li:nth-child(3) {
+    left: 70%;
+    width: 9em;
+    height: 9em;
+    animation-delay: 5.5s;
+    border-radius: 50px;
+}
+
+.animatie-blok li:nth-child(4) {
+    left: 42%;
+    width: 8em;
+    height: 8em;
+    animation-delay: 0s;
+    animation-duration: 15s;
+    border-radius: 50px;
+}
+
+.animatie-blok li:nth-child(5) {
+    left: 60%;
+    width: 3em;
+    height: 3em;
+    animation-delay: 0s;
+    border-radius: 50px;
+}
+
+.animatie-blok li:nth-child(6) {
+    left: 25%;
+    width: 6em;
+    height: 6em;
+    animation-delay: 3.5s;
+    border-radius: 50px;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 1;
+    }
 }
