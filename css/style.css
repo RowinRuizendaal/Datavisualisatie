@@ -1,8 +1,25 @@
 body {
-    background-color: #1a1f2b;
+    background-color: var(--background);
     overflow-x: hidden;
 }
 
+:root {
+    --background: #1a1f2b;
+    --white: #fff;
+    --Roboto: 'Roboto' 
+}
+
+h1 {
+    color: var(--white);
+    font-family: var(--Roboto);
+    text-align: center;
+    margin-top: 5rem;
+}
+
+h3 {
+    color: var(--white);
+    font-family: var(--Roboto);
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -18,7 +35,7 @@ body {
     border-radius: .25rem;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, .25);
     overflow: hidden;
-    background-color: #fff;
+    /* background-color: var(--white); */
     margin-bottom: 3rem;
     z-index: 9;
 }
@@ -31,7 +48,7 @@ body {
 
 .container .graph h3 {
     text-align: center;
-    font-family: 'Roboto';
+    font-family: var(--Roboto);
 }
 
 /* ANIMATIE ACHTERGROND ---------------------------------------------------------- */
