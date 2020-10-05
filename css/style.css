@@ -6,19 +6,19 @@ body {
 :root {
     --background: #1a1f2b;
     --white: #fff;
-    --Roboto: 'Roboto' 
+    --Montserrat: 'Montserrat' 
 }
 
 h1 {
     color: var(--white);
-    font-family: var(--Roboto);
+    font-family: var(--Montserrat);
     text-align: center;
     margin-top: 5rem;
 }
 
 h3 {
     color: var(--white);
-    font-family: var(--Roboto);
+    font-family: var(--Montserrat);
 }
 .container {
     display: grid;
@@ -48,7 +48,7 @@ h3 {
 
 .container .graph h3 {
     text-align: center;
-    font-family: var(--Roboto);
+    font-family: var(--Montserrat);
 }
 
 /* ANIMATIE ACHTERGROND ---------------------------------------------------------- */

@@ -2,25 +2,44 @@ const ctx1 = document.getElementById('Chart').getContext('2d');
 const myChart1 = new Chart(ctx1, {
     type: 'bar',
     data: {
-        labels: ['Extrovert', 'Introvert', '50/50', 'Geen van beiden'],
+        labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
         datasets: [{
-            label: 'Geloof je in buitenaarts leven introvert/extrovert',
+            label: 'Geloof in buitenaarts leven',
             data: [
-                24, 
-                28, 
-                37, 
-                2],
+                2, 
+                3, 
+                4, 
+                2,
+                12,
+                20,
+                21,
+                15,
+                11,
+                1
+            ],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
                 'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)'
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(165, 255, 214, 0.2)',
+                'rgba(135, 151, 175, 0.2)',
+                'rgba(237, 222, 164, 0.2)',
+                'rgba(255, 155, 66, 0.2)',
+                'rgba(242, 233, 220, 0.2)',
+                'rgba(190, 162, 194, 0.2)',
             ],
             borderColor: [
                 'rgba(255, 99, 132, 1)',
                 'rgba(54, 162, 235, 1)',
                 'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)'
+                'rgba(75, 192, 192, 1)',
+                'rgba(165, 255, 214, 1)',
+                'rgba(135, 151, 175, 1)',
+                'rgba(237, 222, 164, 1)',
+                'rgba(255, 155, 66, 1)',
+                'rgba(242, 233, 220, 1)',
+                'rgba(190, 162, 194, 1)',
             ],
             borderWidth: 1
         }]
@@ -35,7 +54,7 @@ const myChart1 = new Chart(ctx1, {
             yAxes: [{
                 scaleLabel: {
                     display: true,
-                    labelString: 'aantal',
+                    labelString: 'aantal die geloven in buitenaarts leven',
                     fontColor: '#FFF',
                 },
                 ticks: {
@@ -45,7 +64,7 @@ const myChart1 = new Chart(ctx1, {
             xAxes: [{
                 scaleLabel: {
                     display: true,
-                    labelString: 'categorieën',
+                    labelString: 'Cijfer hoe kijk je naar de toekomst',
                     fontColor: '#FFF',
                 },
                 ticks: {
@@ -83,8 +102,8 @@ const options = {
                 r: 10
               }
             ],
-            backgroundColor:"#002626",
-            hoverBackgroundColor: "#002626"
+            backgroundColor:"#d0e562",
+            hoverBackgroundColor: "#d0e562"
         },
         {
           label: 'Wiet',
@@ -134,7 +153,7 @@ const options = {
             backgroundColor:"#E55812",
             hoverBackgroundColor: "#E55812"
           },
-        ]
+        ] 
     },
     options: {
         scales: {
@@ -165,6 +184,8 @@ const options = {
   const ctx2 = document.getElementById('Chart2').getContext('2d');
   new Chart(ctx2, options);
 
+
+
 // Third chart
 
 const ctx3 = document.getElementById('Chart3').getContext('2d');
@@ -173,7 +194,7 @@ const myChart3 = new Chart(ctx3, {
     data: {
         labels: ['1', '3', '4', '5', '6', '7', '8', '9', '10'],
         datasets: [{
-            label: 'Hoevel wil je verdienen',
+            label: 'Hoeveel wil je verdienen',
             data: [
                 1550, 
                 3250, 
