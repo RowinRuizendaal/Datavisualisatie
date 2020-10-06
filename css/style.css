@@ -4,22 +4,45 @@ body {
 }
 
 :root {
-    --background: #1a1f2b;
+    --background: #111628;
     --white: #fff;
-    --Montserrat: 'Montserrat' 
+    --Montserrat: 'Montserrat'
 }
 
 h1 {
     color: var(--white);
-    font-family: var(--Montserrat);
+    font-family: var(--Montserrat), sans-serif;
     text-align: center;
     margin-top: 5rem;
 }
 
 h3 {
     color: var(--white);
-    font-family: var(--Montserrat);
+    font-family: var(--Montserrat), sans-serif;
 }
+
+
+.intro {
+    position: relative;
+    background-color: var(--background);
+    /* min-height: 10vh; */
+}
+
+.background__image {
+    background: url('/img/remake.svg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    object-fit: cover;
+    height: 30rem;
+    /* margin-top: 20rem; */
+    z-index: 900;
+}
+
+.container > img:nth-child(1) {
+    height: 10rem;
+}
+
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -48,7 +71,7 @@ h3 {
 
 .container .graph h3 {
     text-align: center;
-    font-family: var(--Montserrat);
+    font-family: var(--Montserrat), sans-serif;
 }
 
 /* ANIMATIE ACHTERGROND ---------------------------------------------------------- */
@@ -133,6 +156,6 @@ h3 {
 
     100% {
         transform: translateY(-800px) rotate(360deg);
-        opacity: 1;
+        opacity: 0;
     }
 }

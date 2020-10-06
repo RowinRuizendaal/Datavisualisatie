@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Datavisualisatie</title>
 </head>
+
 <body>
     <main>
-        <h1>Hoe kijken Datavisualisatie studenten naar de toekomst</h1>
-        <section class="container">
+        <section class="intro">
+            <h1>Hoe kijken Datavisualisatie studenten naar de toekomst</h1>
+            <div class="container">
+                <img src="img/astronaut.svg">
             <div class="graph">
                 <h3>Hoeveelheid van personen die in buitenaarts leven geloven</h3>
                 <canvas id="Chart"></canvas>
             </div>
+            </div>
+            <div class="background__image"></div>
+        </section>
+        <section class="container" id="graphsection">
             <div class="graph">
                 <h3>Hoeveel mensen gebruiken drugs en het gemiddelde per jaar gebruik</h3>
                 <canvas id="Chart2"></canvas>
@@ -39,4 +47,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>
