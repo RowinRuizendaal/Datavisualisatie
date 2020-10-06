@@ -29,7 +29,7 @@ h3 {
 }
 
 .background__image {
-    background: url('/img/remake.svg');
+    background: url('../img/remake.svg');
     background-repeat: no-repeat;
     background-size: 100vw;
     object-fit: cover;
