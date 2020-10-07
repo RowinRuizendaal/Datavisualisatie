@@ -90,8 +90,9 @@ const options = {
               r: 10
             }
           ],
-          backgroundColor:"#ff6384",
-          hoverBackgroundColor: "#ff6384"
+          backgroundColor:"rgba(255, 99, 132, 0.2)",
+          borderColor: 'rgba(255, 99, 132, 1)',
+          hoverBackgroundColor: "rgba(255, 99, 132, 0.2)"
         },
         {
           label: 'MDMA',
@@ -102,8 +103,9 @@ const options = {
                 r: 10
               }
             ],
-            backgroundColor:"#d0e562",
-            hoverBackgroundColor: "#d0e562"
+            backgroundColor:"rgba(54, 162, 235, 0.2)",
+            borderColor: 'rgba(54, 162, 235, 1)',
+            hoverBackgroundColor: "rgba(54, 162, 235, 0.2)"
         },
         {
           label: 'Wiet',
@@ -114,8 +116,9 @@ const options = {
                 r: 10
               }
             ],
-            backgroundColor:"#48a23b",
-            hoverBackgroundColor: "#48a23b"
+            backgroundColor:"rgba(255, 206, 86, 0.2)",
+            borderColor: 'rgba(255, 206, 86, 1)',
+            hoverBackgroundColor: "rgba(255, 206, 86, 0.2)"
         },
         {
           label: 'Hash',
@@ -126,8 +129,9 @@ const options = {
                 r: 10
               }
             ],
-            backgroundColor:"#0E4749",
-            hoverBackgroundColor: "#0E4749"
+            backgroundColor:"rgba(75, 192, 192, 0.2)",
+            borderColor: 'rgba(75, 192, 192, 1)',
+            hoverBackgroundColor: 'rgba(75, 192, 192, 0.2)'
         },
         {
           label: 'Overige drugs',
@@ -138,8 +142,9 @@ const options = {
                 r: 10
               }
             ],
-            backgroundColor:"#95C623",
-            hoverBackgroundColor: "#95C623"
+            backgroundColor:"rgba(165, 255, 214, 0.2)",
+            borderColor: 'rgba(165, 255, 214, 1)',
+            hoverBackgroundColor: "rgba(165, 255, 214, 0.2)"
         },
         {
             label: 'Geen',
@@ -150,8 +155,9 @@ const options = {
                 r: 10
               }
             ],
-            backgroundColor:"#E55812",
-            hoverBackgroundColor: "#E55812"
+            backgroundColor:"rgba(135, 151, 175, 0.2)",
+            borderColor: 'rgba(135, 151, 175, 1)',
+            hoverBackgroundColor: "rgba(135, 151, 175, 0.2)"
           },
         ] 
     },
@@ -208,18 +214,19 @@ const myChart3 = new Chart(ctx3, {
 
             ],
             backgroundColor: [
-                'rgba(76,24,210,0.4)'
+                'rgba(76,24,210,0.4)',
             ],
             borderColor: [
                 'rgba(255, 99, 132, 1)',
                 'rgba(54, 162, 235, 1)',
                 'rgba(255, 206, 86, 1)',
                 'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)',
-                'rgba(255,101,80,0.4)',
-                'rgba(255,190,80,0.4)',
-                'rgba(76,24,210,0.4)'
+                'rgba(165, 255, 214, 1)',
+                'rgba(135, 151, 175, 1)',
+                'rgba(237, 222, 164, 1)',
+                'rgba(255, 155, 66, 1)',
+                'rgba(242, 233, 220, 1)',
+                'rgba(190, 162, 194, 1)',
             ],
             borderWidth: 2
         }]
@@ -238,7 +245,7 @@ const myChart3 = new Chart(ctx3, {
                     fontColor: '#FFF',
                 },
                 ticks: {
-                    beginAtZero: true
+                    beginAtZero: true,
                 }
             }],
             xAxes: [{
