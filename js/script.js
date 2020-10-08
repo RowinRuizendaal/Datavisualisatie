@@ -85,7 +85,7 @@ const options = {
           label: 'Alcohol',
           data: [
             {
-              x: 5,
+              x: 1,
               y: 50,
               r: 10
             }
@@ -98,7 +98,7 @@ const options = {
           label: 'MDMA',
             data: [
               {
-                x: 5,
+                x: 2,
                 y: 8,
                 r: 10
               }
@@ -111,7 +111,7 @@ const options = {
           label: 'Wiet',
             data: [
               {
-                x: 12,
+                x: 3,
                 y: 50,
                 r: 10
               }
@@ -124,7 +124,7 @@ const options = {
           label: 'Hash',
             data: [
               {
-                x: 3,
+                x: 4,
                 y: 150,
                 r: 10
               }
@@ -134,10 +134,37 @@ const options = {
             hoverBackgroundColor: 'rgba(75, 192, 192, 0.2)'
         },
         {
+            label: 'Paddo',
+              data: [
+                {
+                  x: 3,
+                  y: 110,
+                  r: 10
+                }
+              ],
+              backgroundColor:"rgba(190, 162, 194, 0.2)",
+              borderColor: 'rgba(190, 162, 194, 1)',
+              hoverBackgroundColor: 'rgba(190, 162, 194, 0.2)'
+          },
+        {
+            label: 'LSD',
+              data: [
+                {
+                  x: 3,
+                  y: 150,
+                  r: 10
+                }
+              ],
+              backgroundColor:"rgba(242, 233, 220, 0.2)",
+              borderColor: 'rgba(242, 233, 220, 1)',
+              hoverBackgroundColor: 'rgba(242, 233, 220, 0.2)'
+          },
+          
+        {
           label: 'Overige drugs',
             data: [
               {
-                x: 25,
+                x: 5,
                 y: 20,
                 r: 10
               }
@@ -147,10 +174,23 @@ const options = {
             hoverBackgroundColor: "rgba(165, 255, 214, 0.2)"
         },
         {
+            label: 'GHB',
+              data: [
+                {
+                  x: 6,
+                  y: 5,
+                  r: 10
+                }
+              ],
+              backgroundColor:'rgba(255, 155, 66, 0.2)',
+              borderColor: 'rgba(255, 155, 66, 1)',
+              hoverBackgroundColor: "rgba(255, 155, 66, 0.2)"
+          },
+        {
             label: 'Geen',
             data: [
               {
-                x: 41,
+                x: 10,
                 y: 0,
                 r: 10
               }
@@ -158,7 +198,7 @@ const options = {
             backgroundColor:"rgba(135, 151, 175, 0.2)",
             borderColor: 'rgba(135, 151, 175, 1)',
             hoverBackgroundColor: "rgba(135, 151, 175, 0.2)"
-          },
+          },          
         ] 
     },
     options: {
@@ -176,7 +216,7 @@ const options = {
             xAxes: [{
                 scaleLabel: {
                     display: true,
-                    labelString: 'Aantal personen',
+                    labelString: 'Cijfer toekomst 1/10',
                     fontColor: '#FFF',
                 },
                 ticks: {
