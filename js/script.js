@@ -539,7 +539,7 @@ new Chart(document.querySelector('#Chart4').getContext('2d'), {
           {
             x: 7,
             y: 4,
-            r: 6,
+            r: 10,
           },
 
           {
@@ -562,7 +562,7 @@ new Chart(document.querySelector('#Chart4').getContext('2d'), {
           {
             x: 7,
             y: 6,
-            r: 9,
+            r: 10,
           },
           {
             x: 8,
@@ -587,14 +587,13 @@ new Chart(document.querySelector('#Chart4').getContext('2d'), {
           {
             x: 9,
             y: 7,
-            r: 9,
+            r: 10,
           },
           {
             x: 9,
             y: 7,
-            r: 6,
+            r: 10,
           },
-          // 8
           {
             x: 4,
             y: 8,
@@ -603,17 +602,17 @@ new Chart(document.querySelector('#Chart4').getContext('2d'), {
           {
             x: 7,
             y: 8,
-            r: 6,
+            r: 10,
           },
           {
             x: 8,
             y: 8,
-            r: 9,
+            r: 10,
           },
           {
             x: 8,
             y: 9,
-            r: 6,
+            r: 10,
           },
         ],
       },
