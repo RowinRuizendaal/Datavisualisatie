@@ -82,7 +82,7 @@ const options = {
     data: {
       datasets: [
         {
-          label: 'Alcohol',
+          label: 'Methadon',
           data: [
             {
               x: 1,
@@ -94,6 +94,19 @@ const options = {
           borderColor: 'rgba(255, 99, 132, 1)',
           hoverBackgroundColor: "rgba(255, 99, 132, 0.2)"
         },
+        {
+            label: 'Amfetamine',
+            data: [
+              {
+                x: 1,
+                y: 20,
+                r: 10
+              }
+            ],
+            backgroundColor:"rgba(237, 222, 164, 0.2)",
+            borderColor: 'rgba(237, 222, 164, 1)',
+            hoverBackgroundColor: "rgba(237, 222, 164, 0.2)"
+          },
         {
           label: 'MDMA',
             data: [
