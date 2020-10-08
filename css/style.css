@@ -41,7 +41,8 @@ h3 {
 }
 
 .container > img:nth-child(1) {
-    height: 10rem;
+    height: 20rem;
+    width: 35rem;
 }
 
 #graphsection > img:nth-child(2) {
