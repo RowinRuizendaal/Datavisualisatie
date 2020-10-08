@@ -88,6 +88,21 @@ const options = {
               x: 1,
               y: 50,
               r: 10
+            },
+            {
+              x: 2,
+              y: 5,
+              r: 10
+            },
+            {
+              x: 3,
+              y: 3,
+              r: 10,
+            },
+            {
+              x: 4,
+              y: 4,
+              r: 10,
             }
           ],
           backgroundColor:"rgba(255, 99, 132, 0.2)",
@@ -101,6 +116,21 @@ const options = {
                 x: 1,
                 y: 20,
                 r: 10
+              },
+              {
+                x: 6,
+                y: 7,
+                r: 10
+              },
+              {
+                x: 3,
+                y: 8,
+                r: 10,
+              },
+              {
+                x: 4,
+                y: 6,
+                r: 10,
               }
             ],
             backgroundColor:"rgba(237, 222, 164, 0.2)",
@@ -113,6 +143,26 @@ const options = {
               {
                 x: 2,
                 y: 8,
+                r: 10
+              },
+              {
+                x: 1,
+                y: 10,
+                r: 10,
+              },
+              {
+                x: 7,
+                y: 3,
+                r: 10
+              },
+              {
+                x: 8,
+                y: 2,
+                r: 10
+              },
+              {
+                x: 9,
+                y: 1,
                 r: 10
               }
             ],
@@ -127,6 +177,51 @@ const options = {
                 x: 3,
                 y: 50,
                 r: 10
+              },
+              {
+                x: 1,
+                y: 30,
+                r: 10
+              },
+              {
+                x: 2,
+                y: 27,
+                r: 10
+              },
+              {
+                x: 4,
+                y: 21,
+                r: 10,
+              },
+              {
+                x: 5,
+                y: 15,
+                r: 10,
+              },
+              {
+                x: 6,
+                y: 8,
+                r: 10,
+              },
+              {
+                x: 7,
+                y: 5,
+                r: 10,
+              },
+              {
+                x: 8,
+                y: 8,
+                r: 10,
+              },
+              {
+                x: 9,
+                y: 3,
+                r: 10,
+              },
+              {
+                x: 10,
+                y: 2,
+                r: 10,
               }
             ],
             backgroundColor:"rgba(255, 206, 86, 0.2)",
@@ -137,9 +232,24 @@ const options = {
           label: 'Hash',
             data: [
               {
-                x: 4,
+                x: 1,
                 y: 150,
                 r: 10
+              },
+              {
+                x: 2,
+                y: 100,
+                r: 10,
+              },
+              {
+                x: 3,
+                y: 80,
+                r: 10,
+              },
+              {
+                x: 4,
+                y: 30,
+                r: 10,
               }
             ],
             backgroundColor:"rgba(75, 192, 192, 0.2)",
@@ -151,8 +261,23 @@ const options = {
               data: [
                 {
                   x: 3,
-                  y: 110,
+                  y: 50,
                   r: 10
+                },
+                {
+                  x: 2,
+                  y: 110,
+                  r: 10,
+                },
+                {
+                  x: 3,
+                  y: 60,
+                  r: 10,
+                },
+                {
+                  x: 4,
+                  y: 30,
+                  r: 10,
                 }
               ],
               backgroundColor:"rgba(190, 162, 194, 0.2)",
@@ -163,9 +288,19 @@ const options = {
             label: 'LSD',
               data: [
                 {
-                  x: 3,
+                  x: 2,
                   y: 150,
                   r: 10
+                },
+                {
+                  x: 1,
+                  y: 160,
+                  r: 10,
+                },
+                {
+                  x: 3,
+                  y: 140,
+                  r: 10,
                 }
               ],
               backgroundColor:"rgba(242, 233, 220, 0.2)",
@@ -180,6 +315,51 @@ const options = {
                 x: 5,
                 y: 20,
                 r: 10
+              },
+              {
+                x: 1,
+                y: 100,
+                r: 10,
+              },
+              {
+                x: 2,
+                y: 70,
+                r: 10,
+              },
+              {
+                x: 3,
+                y: 50,
+                r: 10,
+              },
+              {
+                x: 4,
+                y: 45,
+                r: 10,
+              },
+              {
+                x: 7,
+                y: 30,
+                r: 10,
+              },
+              {
+                x: 8,
+                y: 27,
+                r: 10,
+              },
+              {
+                x: 9,
+                y: 20,
+                r: 10,
+              },
+              {
+                x: 10,
+                y: 20,
+                r: 10,
+              },
+              {
+                x: 6,
+                y: 20,
+                r: 10,
               }
             ],
             backgroundColor:"rgba(165, 255, 214, 0.2)",
@@ -190,9 +370,24 @@ const options = {
             label: 'GHB',
               data: [
                 {
-                  x: 6,
-                  y: 5,
+                  x: 1,
+                  y: 20,
                   r: 10
+                },
+                {
+                  x: 2,
+                  y: 5,
+                  r: 10,
+                },
+                {
+                  x: 3,
+                  y: 10,
+                  r: 10,
+                },
+                {
+                  x: 4,
+                  y: 8,
+                  r: 10,
                 }
               ],
               backgroundColor:'rgba(255, 155, 66, 0.2)',
@@ -206,7 +401,8 @@ const options = {
                 x: 10,
                 y: 0,
                 r: 10
-              }
+              },
+              
             ],
             backgroundColor:"rgba(135, 151, 175, 0.2)",
             borderColor: 'rgba(135, 151, 175, 1)',
@@ -313,4 +509,335 @@ const myChart3 = new Chart(ctx3, {
             }]
         }
     }
+});
+
+new Chart(document.querySelector('#Chart4').getContext('2d'), {
+  type: 'bubble',
+  data: {
+    datasets: [
+      {
+        label: ['Introvert'],
+        backgroundColor:"rgba(255, 99, 132, 0.2)",
+        borderColor: 'rgba(255, 99, 132, 1)',
+        hoverBackgroundColor: "rgba(255, 99, 132, 0.2)",
+        data: [
+          {
+            x: 1,
+            y: 4,
+            r: 10,
+          },
+          {
+            x: 4,
+            y: 4,
+            r: 10,
+          },
+          {
+            x: 6,
+            y: 4,
+            r: 10,
+          },
+          {
+            x: 7,
+            y: 4,
+            r: 6,
+          },
+
+          {
+            x: 7,
+            y: 5,
+            r: 10,
+          },
+
+          {
+            x: 3,
+            y: 6,
+            r: 10,
+          },
+          {
+            x: 6,
+            y: 6,
+            r: 10,
+          },
+
+          {
+            x: 7,
+            y: 6,
+            r: 9,
+          },
+          {
+            x: 8,
+            y: 6,
+            r: 10,
+          },
+          {
+            x: 9,
+            y: 6,
+            r: 10,
+          },
+          {
+            x: 10,
+            y: 6,
+            r: 6,
+          },
+          {
+            x: 9,
+            y: 7,
+            r: 10,
+          },
+          {
+            x: 9,
+            y: 7,
+            r: 9,
+          },
+          {
+            x: 9,
+            y: 7,
+            r: 6,
+          },
+          // 8
+          {
+            x: 4,
+            y: 8,
+            r: 10,
+          },
+          {
+            x: 7,
+            y: 8,
+            r: 6,
+          },
+          {
+            x: 8,
+            y: 8,
+            r: 9,
+          },
+          {
+            x: 8,
+            y: 9,
+            r: 6,
+          },
+        ],
+      },
+      {
+        label: ['Extrovert'],
+        backgroundColor:"rgba(237, 222, 164, 0.2)",
+        borderColor: 'rgba(237, 222, 164, 1)',
+        hoverBackgroundColor: "rgba(237, 222, 164, 0.2)",
+        data: [
+          {
+            x: 10,
+            y: 5,
+            r: 10,
+          },
+          {
+            x: 7,
+            y: 6,
+            r: 10,
+          },
+          {
+            x: 10,
+            y: 6,
+            r: 10,
+          },
+          {
+            x: 7,
+            y: 7,
+            r: 10,
+          },
+          {
+            x: 9,
+            y: 7,
+            r: 10,
+          },
+          {
+            x: 7,
+            y: 8,
+            r: 10,
+          },
+          {
+            x: 7,
+            y: 8,
+            r: 10,
+          },
+          {
+            x: 8,
+            y: 8,
+            r: 10,
+          },
+          {
+            x: 8,
+            y: 8,
+            r: 10,
+          },
+          {
+            x: 8,
+            y: 9,
+            r: 10,
+          },
+          {
+            x: 10,
+            y: 10,
+            r: 10,
+          },
+          {
+            x: 10,
+            y: 10,
+            r: 10,
+          },
+        ],
+      },
+      {
+        label: ['Anders'],
+        backgroundColor:"rgba(54, 162, 235, 0.2)",
+        borderColor: 'rgba(54, 162, 235, 1)',
+        hoverBackgroundColor: "rgba(54, 162, 235, 0.2)",
+        data: [
+          {
+            x: 3,
+            y: 7,
+            r: 10,
+          },
+          {
+            x: 4,
+            y: 8,
+            r: 10,
+          },
+          {
+            x: 1,
+            y: 4,
+            r: 10,
+          },
+          {
+            x: 3,
+            y: 5,
+            r: 10,
+          },
+          {
+            x: 4,
+            y: 6,
+            r: 10,
+          },
+          {
+            x: 5,
+            y: 7,
+            r: 10,
+          },
+          {
+            x: 6,
+            y: 8,
+            r: 10,
+          },
+          {
+            x: 8,
+            y: 5,
+            r: 10,
+          },
+          {
+            x: 4,
+            y: 7,
+            r: 10,
+          },
+          {
+            x: 6,
+            y: 6,
+            r: 10,
+          },
+          {
+            x: 7,
+            y: 7,
+            r: 10,
+          },
+          {
+            x: 8,
+            y: 5,
+            r: 10,
+          },
+          {
+            x: 9,
+            y: 7,
+            r: 10,
+          },
+          {
+            x: 10,
+            y: 7,
+            r: 10,
+          },
+          {
+            x: 5,
+            y: 8,
+            r: 10,
+          },
+          {
+            x: 7,
+            y: 8,
+            r: 10,
+          },
+          {
+            x: 8,
+            y: 8,
+            r: 10,
+          },
+          {
+            x: 9,
+            y: 8,
+            r: 10,
+          },
+          {
+            x: 10,
+            y: 8,
+            r: 10,
+          },
+          {
+            x: 6,
+            y: 9,
+            r: 10,
+          },
+          {
+            x: 9,
+            y: 9,
+            r: 10,
+          },
+          {
+            x: 10,
+            y: 9,
+            r: 10,
+          },
+        ],
+      },
+    ],
+  },
+  options: {
+    legend: {
+      labels: {
+        fontColor: '#FFF',
+      },
+    },
+    scales: {
+      yAxes: [
+        {
+          scaleLabel: {
+            display: true,
+            labelString: 'Wat voor cijfer geven de studenten hun gezondheid',
+            fontColor: '#FFF',
+          },
+          ticks: {
+            beginAtZero: true,
+            fontColor: '#FFF',
+          },
+        },
+      ],
+      xAxes: [
+        {
+          scaleLabel: {
+            display: true,
+            labelString: 'Wat voor cijfer geef je de toekomst? (1-10)',
+            fontColor: '#FFF',
+          },
+          ticks: {
+            beginAtZero: true,
+            fontColor: '#FFF',
+          },
+        },
+      ],
+    },
+  },
 });
